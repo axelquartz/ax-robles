@@ -1,0 +1,26 @@
+[
+  {
+    "id": "marca",
+    "nombre": "Marca",
+    "para": "Negocios que arrancan o quieren verse a la altura de su producto.",
+    "entrego": ["Logotipo y sistema de identidad", "Paleta, tipografía y manual breve", "Empaques y piezas para redes"],
+    "tiempo": "2 a 3 semanas",
+    "precio": "$8,000 – $18,000 MXN"
+  },
+  {
+    "id": "sitio",
+    "nombre": "Sitio y menú digital",
+    "para": "Negocios que quieren que los encuentren y los entiendan en un vistazo.",
+    "entrego": ["Sitio rápido, pensado para el celular", "Menú digital con fotos y botón a WhatsApp", "Google Maps, SEO básico y dominio"],
+    "tiempo": "2 a 4 semanas",
+    "precio": "$12,000 – $28,000 MXN"
+  },
+  {
+    "id": "pedidos",
+    "nombre": "Pedidos en línea con pago y panel",
+    "para": "Negocios que ya venden y quieren cobrar y operar sin intermediarios.",
+    "entrego": ["Menú, carrito y checkout por pasos", "Pago con tarjeta y panel de cocina en tiempo real", "Cupones, reportes y exportación a CSV"],
+    "tiempo": "4 a 8 semanas",
+    "precio": "$35,000 – $80,000 MXN"
+  }
+]

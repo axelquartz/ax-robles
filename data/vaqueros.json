@@ -1,0 +1,23 @@
+{
+  "nombre": "Vaquero's",
+  "giro": "Restaurante de alitas",
+  "resumen": "Un restaurante que dejó de depender de apps de reparto: menú propio, cobro con tarjeta y cocina conectada.",
+  "metricas": [
+    {"etiqueta": "Pedidos en línea", "valor": null},
+    {"etiqueta": "Tiempo de entrega", "valor": null},
+    {"etiqueta": "Ticket promedio", "valor": null}
+  ],
+  "funciones": [
+    "Menú digital pensado para el celular",
+    "Carrito siempre a la mano y checkout por pasos",
+    "Pago con tarjeta (Mercado Pago)",
+    "Panel de cocina en tiempo real",
+    "Repartidor con GPS",
+    "Promos y cupones",
+    "Reseñas de clientes",
+    "Reembolsos aprobados a mano",
+    "Notificaciones push",
+    "Dashboard de ventas y exportación a CSV"
+  ],
+  "stack": ["Next.js (App Router)", "TypeScript", "Tailwind CSS", "Supabase", "Netlify", "Mercado Pago"]
+}
