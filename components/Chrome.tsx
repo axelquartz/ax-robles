@@ -22,7 +22,7 @@ export function Footer() {
   return (
     <footer className="border-t border-line px-5 py-8 text-sm text-mute">
       <div className="mx-auto flex max-w-6xl flex-wrap justify-between gap-3">
-        <span>© {new Date().getFullYear()} {site.marca}, {site.ciudad}</span>
+        <span>© 2026 {site.marca}, {site.ciudad}</span>
         <a className="hover:text-ink" href={wa("Hola, vi tu sitio.")}>WhatsApp</a>
       </div>
     </footer>
