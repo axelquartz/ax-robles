@@ -64,7 +64,8 @@ export default function Caso() {
         <section className="hero-glow overflow-hidden">
           <div className="mx-auto max-w-6xl px-5 pt-14 text-center sm:pt-24">
             <Link href="/" className="text-sm text-mute transition hover:text-ink">Volver al inicio</Link>
-            <h1 className="mx-auto mt-8 max-w-5xl text-5xl leading-[0.98] sm:text-7xl lg:text-8xl">Vaquero&apos;s dejó de depender de las apps.</h1>
+            <p className="mt-8 text-lg text-mute">Caso de estudio: Vaquero Wings</p>
+            <h1 className="mx-auto mt-4 max-w-5xl text-5xl leading-[0.98] sm:text-7xl lg:text-8xl">Vaquero Wings dejó de depender de las apps.</h1>
             <p className="mx-auto mt-8 max-w-2xl text-lg leading-relaxed text-mute sm:text-2xl">
               {v.resumen}
             </p>

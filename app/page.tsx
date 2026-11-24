@@ -24,7 +24,7 @@ export default function Home() {
             <div>
               <h1 className="text-5xl leading-[1.02] sm:text-7xl lg:text-8xl">Te ayudo a vender más en línea.</h1>
               <p className="mt-8 max-w-xl text-lg leading-relaxed text-mute sm:text-xl">
-                Marca, sitio y pedidos con pago para restaurantes, heladerías y cafeterías. Vende más, entrega a domicilio y no pagues comisión por pedido a las apps. Soy diseñador y desarrollador en {site.ciudad}, con {site.anios} años de oficio.
+                Construyo marcas, sitios web y sistemas de pedidos con pago para restaurantes, heladerías y cafeterías. De la identidad al cobro y la cocina, todo conectado y sin comisión por pedido a las apps.
               </p>
               <div className="mt-10 flex flex-wrap gap-3">
                 <a href={wa("Hola, quiero vender más en línea.")} className={btnPrimary}>Escríbeme por WhatsApp</a>
@@ -37,7 +37,8 @@ export default function Home() {
 
         <section id="caso" className="border-y border-line bg-surface py-24 sm:py-36">
           <div className={wrap}>
-            <h2 className="max-w-4xl text-4xl leading-[1.04] sm:text-6xl lg:text-7xl">Vaquero&apos;s dejó de pagar comisiones a las apps.</h2>
+            <p className="mb-5 text-lg text-mute">Caso de estudio: Vaquero Wings</p>
+            <h2 className="max-w-4xl text-4xl leading-[1.04] sm:text-6xl lg:text-7xl">Vaquero Wings dejó de pagar comisiones a las apps.</h2>
             <p className="mt-6 max-w-2xl text-lg text-mute">{v.resumen}</p>
             <div className="mt-12 grid gap-px overflow-hidden rounded-3xl border border-line bg-line sm:grid-cols-3">
               {[
@@ -91,7 +92,7 @@ export default function Home() {
             <Image src="/axel-2.jpg" alt="Axel Robles" width={1200} height={1594} className="aspect-[4/5] w-full max-w-sm rounded-3xl object-cover object-[50%_38%]" />
             <div>
               <h2 className="text-4xl sm:text-6xl">Trabajas conmigo, no con una agencia.</h2>
-              <p className="mt-5 max-w-xl text-mute">Llevo {site.anios} años diseñando y programando desde {site.ciudad}. Me enfoco en dos cosas: que todo sea simple de usar y que se vea con alta calidad. Si algo no ayuda a vender, no lo pongo.</p>
+              <p className="mt-5 max-w-xl text-mute">Soy dueño de un restaurante y construí el sistema con el que vende. Por eso sé lo que cuesta cada comisión, cada pedido perdido y cada devolución, y diseño pensando en la operación, no solo en que se vea bien. Si algo no ayuda a vender, no lo pongo.</p>
               <ol className="mt-8 space-y-5">
                 {[
                   ["Platicamos", "Entiendo tu negocio, tus números y qué te está frenando."],

@@ -8,7 +8,7 @@ const data = IBM_Plex_Mono({ subsets: ["latin"], weight: ["400"], variable: "--f
 export const metadata: Metadata = {
   title: "AX Robles · Marca, sitio y pedidos en línea para negocios de comida",
   description:
-    "Diseñador y desarrollador en Guadalajara. Ayudo a restaurantes, heladerías y cafeterías a vender más en línea.",
+    "Sistemas de pedidos propios, con pago y panel de cocina, para restaurantes, heladerías y cafeterías. Sin comisión por pedido a las apps.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
