@@ -54,7 +54,7 @@ export default function Home() {
             </div>
             <figure className="mt-12 max-w-3xl">
               <blockquote className="text-2xl leading-snug tracking-tight sm:text-3xl">“{v.cita.texto}”</blockquote>
-              <figcaption className="mt-4 text-mute">{v.cita.autor}</figcaption>
+              
             </figure>
             {v.metricas.some((m) => m.valor) && (
               <div className="mt-12 grid grid-cols-3 gap-4">{v.metricas.map((m) => <Metric key={m.etiqueta} {...m} />)}</div>
@@ -78,21 +78,26 @@ export default function Home() {
                 </div>
                 <ul className="space-y-1.5">{s.entrego.map((e) => <li key={e} className="flex gap-2"><span className="text-accent">+</span>{e}</li>)}</ul>
                 <div className="lg:text-right">
+                  {"etiqueta" in s && <div className="mb-2 inline-block rounded-full border border-line px-3 py-1 text-xs text-accent">{s.etiqueta}</div>}
                   <div className="text-2xl font-light tracking-tight">{s.precio}</div>
-                  <div className="text-sm text-mute">{s.tiempo}</div>
+                  {"mensualidad" in s && <div className="mt-1 text-lg text-ink/90">{s.mensualidad}</div>}
+                  {"mensualidadIncluye" in s && <div className="mt-1 max-w-[18rem] text-sm text-mute lg:ml-auto">{s.mensualidadIncluye}</div>}
+                  {"despues" in s && <div className="mt-3 max-w-[18rem] text-sm text-mute lg:ml-auto">{s.despues}</div>}
+                  {"nota" in s && <div className="mt-1 text-sm text-mute">{s.nota}</div>}
+                  <div className="mt-2 text-sm text-mute">{s.tiempo}</div>
                 </div>
               </article>
             ))}
           </div>
-          <p className="mt-6 text-sm text-mute">Precios de referencia. Cada proyecto se cotiza según lo que necesite tu negocio. ¿Tienes una tienda en línea? También la cotizo a la medida.</p>
+          <p className="mt-6 text-sm text-mute">Precios en pesos mexicanos, de referencia. La comisión de la pasarela de pago (Mercado Pago) la paga el negocio por cada cobro con tarjeta; no la cobro yo. Cada proyecto se cotiza por escrito antes de empezar. ¿Tienes una tienda en línea? También la cotizo a la medida.</p>
         </section>
 
         <section id="yo" className={`border-y border-line bg-surface ${sec}`}>
           <div className={`${wrap} grid gap-12 lg:grid-cols-[1fr_1.3fr]`}>
-            <Image src="/axel-2.jpg" alt="Axel Robles" width={1200} height={1594} className="aspect-[4/5] w-full max-w-sm rounded-3xl object-cover object-[50%_38%]" />
+            <Image src="/axel-traje-2.jpg" alt="Axel Robles" width={900} height={963} className="aspect-[900/963] w-full max-w-sm rounded-3xl object-cover" />
             <div>
               <h2 className="text-4xl sm:text-6xl">Trabajas conmigo, no con una agencia.</h2>
-              <p className="mt-5 max-w-xl text-mute">Soy dueño de un restaurante y construí el sistema con el que vende. Por eso sé lo que cuesta cada comisión, cada pedido perdido y cada devolución, y diseño pensando en la operación, no solo en que se vea bien. Si algo no ayuda a vender, no lo pongo.</p>
+              <p className="mt-5 max-w-xl text-mute">Diseño y programo pensando en la operación: cada comisión, cada pedido perdido y cada devolución cuentan. Me hago cargo de todo, desde la marca hasta la cocina, y trabajas directo conmigo en cada paso. Si algo no ayuda a vender, no lo pongo.</p>
               <ol className="mt-8 space-y-5">
                 {[
                   ["Platicamos", "Entiendo tu negocio, tus números y qué te está frenando."],
@@ -110,13 +115,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="marca" className={`${wrap} ${sec}`}>
-          <h2 className="max-w-3xl text-4xl sm:text-6xl">También hago marca.</h2>
-          <p className="mt-4 max-w-xl text-mute">Identidades para heladerías, cafeterías y restaurantes. Toca cada proyecto para verlo completo.</p>
-          <BrandGallery brands={brand} />
-        </section>
-
-        <section id="sitios" className="border-y border-line bg-surface py-24 sm:py-36">
+        <section id="sitios" className="py-24 sm:py-36">
           <div className={wrap}>
             <h2 className="max-w-3xl text-4xl sm:text-6xl">Sitios que se ven y se cargan a la altura de tu producto.</h2>
             <div className="mt-12 grid gap-6 lg:grid-cols-2">
@@ -141,7 +140,15 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="contacto" className={`border-t border-line bg-surface ${sec}`}>
+        <section id="marca" className="border-y border-line bg-surface py-24 sm:py-36">
+          <div className={wrap}>
+          <h2 className="max-w-3xl text-4xl sm:text-6xl">También hago marca.</h2>
+          <p className="mt-4 max-w-xl text-mute">Identidades para heladerías, cafeterías y restaurantes. Toca cada proyecto para verlo completo.</p>
+          <BrandGallery brands={brand} />
+        </div>
+        </section>
+
+        <section id="contacto" className={`${sec}`}>
           <div className={`${wrap} grid gap-12 lg:grid-cols-2`}>
             <div>
               <h2 className="text-4xl sm:text-6xl">Cuéntame de tu negocio.</h2>

@@ -12,7 +12,7 @@ export const metadata = { title: "Vaquero's · Caso de estudio · AX Robles" };
 const capitulos: Chapter[] = [
   {
     titulo: "Un menú propio que vende en línea.",
-    dolor: "No teníamos ventas en línea: cada pedido dependía del mostrador o de un tercero.",
+    dolor: "No tenían ventas en línea: cada pedido dependía del mostrador o de un tercero.",
     solucion: "Un menú hecho para el celular, con fotos grandes, categorías a un toque y el estado del restaurante a la vista.",
     puntos: ["Abierto o cerrado en tiempo real", "Pausa de pedidos cuando la cocina se satura"],
     img: "/vaqueros/menu.jpg", label: "Menú de Vaquero's en celular", tipo: "movil",
@@ -40,7 +40,7 @@ const capitulos: Chapter[] = [
   },
   {
     titulo: "Domicilio con repartidor propio y seguimiento.",
-    dolor: "Dependíamos de repartidores externos que cobraban comisiones excesivas y nos quitaban control de la entrega.",
+    dolor: "Dependían de repartidores externos que cobraban comisiones excesivas y les quitaban control de la entrega.",
     solucion: "Envío calculado por distancia, repartidor propio con GPS y seguimiento en vivo para el cliente, de principio a fin.",
     puntos: ["Vista propia para el repartidor", "Historial de pedidos del cliente", "Reseñas después de la entrega"],
     img: "/vaqueros/seguimiento.jpg", label: "Seguimiento del pedido", tipo: "movil", nota: "Pantalla con un pedido de ejemplo.",
@@ -153,7 +153,7 @@ export default function Caso() {
         <section className="border-t border-line py-24 sm:py-36">
           <figure className="mx-auto max-w-4xl px-5 text-center">
             <blockquote className="text-3xl leading-[1.15] tracking-tight sm:text-5xl lg:text-6xl">“{v.cita.texto}”</blockquote>
-            <figcaption className="mt-8 text-mute">{v.cita.autor}</figcaption>
+            
           </figure>
         </section>
 

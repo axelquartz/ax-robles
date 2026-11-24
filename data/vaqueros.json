@@ -1,7 +1,7 @@
 {
   "nombre": "Vaquero's",
   "giro": "Restaurante de alitas",
-  "resumen": "Es mi propio restaurante. Pasé de no vender en línea y pagar comisiones excesivas a repartidores externos a recibir 430 pedidos al mes con un sistema que construí yo.",
+  "resumen": "Vaquero Wings pasó de no vender en línea y pagar comisiones excesivas a plataformas de repartidores externos a recibir 430 pedidos al mes con un sistema a la medida, diseñado y desarrollado por AX Robles.",
   "metricas": [
     {
       "etiqueta": "Pedidos al mes",
@@ -37,7 +37,6 @@
     "Mercado Pago"
   ],
   "cita": {
-    "texto": "Tener nuestra plataforma nos permitió vender mucho más y nos hizo irresistibles para los clientes.",
-    "autor": "Axel Robles, dueño de Vaquero Wings"
+    "texto": "Tener nuestra plataforma nos permitió vender mucho más y nos hizo irresistibles para los clientes."
   }
 }
