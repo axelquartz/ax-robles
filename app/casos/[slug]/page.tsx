@@ -81,22 +81,14 @@ export default async function SiteCase({ params }: { params: Promise<{ slug: str
         </section>
 
         <section className="py-24 sm:py-32">
-          <div className="mx-auto grid max-w-6xl gap-16 px-5 lg:grid-cols-2">
-            <div>
-              <h2 className="text-4xl sm:text-5xl">Qué incluye.</h2>
-              <ul className="mt-8 space-y-3 text-lg text-ink/90">
-                {s.incluye.map((i) => <li key={i} className="flex gap-3"><span className="text-accent">+</span>{i}</li>)}
-              </ul>
-            </div>
-            <div>
-              <h2 className="text-4xl sm:text-5xl">Hecho con.</h2>
-              <ul className="mt-8 flex flex-wrap gap-2">
-                {s.stack.map((t) => <li key={t} className="rounded-full border border-line px-4 py-2 text-sm text-ink/90">{t}</li>)}
-              </ul>
-              <a href={s.url} target="_blank" rel="noreferrer" className={`mt-10 ${btnGhost}`}>Abrir {new URL(s.url).host}</a>
-            </div>
+          <div className="mx-auto max-w-6xl px-5">
+            <h2 className="text-4xl sm:text-5xl">Qué incluye.</h2>
+            <ul className="mt-8 grid gap-x-12 gap-y-3 text-lg text-ink/90 sm:grid-cols-2">
+              {s.incluye.map((i) => <li key={i} className="flex gap-3"><span className="text-accent">+</span>{i}</li>)}
+            </ul>
+            <a href={s.url} target="_blank" rel="noreferrer" className={`mt-10 ${btnGhost}`}>Abrir {new URL(s.url).host}</a>
           </div>
-        </section>
+          </section>
 
         <section className="hero-glow border-t border-line py-28 text-center sm:py-44">
           <div className="mx-auto max-w-4xl px-5">

@@ -6,7 +6,7 @@
   --ink: #f5f5f7;
   --mute: #86868b;
   --line: rgba(255, 255, 255, 0.09);
-  --accent: #78a9ff;
+  --accent: #f0b86b;
   --accent-ink: #0b0c0e;
 }
 
@@ -18,18 +18,19 @@
   --color-line: var(--line);
   --color-accent: var(--accent);
   --font-sans: var(--font-body);
+  --font-display: var(--font-heading);
   --font-mono: var(--font-data);
 }
 
 html { scroll-behavior: smooth; }
 [id] { scroll-margin-top: 4.5rem; }
 body { background: var(--bg); color: var(--ink); font-family: var(--font-body), system-ui, sans-serif; -webkit-font-smoothing: antialiased; font-weight: 300; }
-h1, h2, h3 { font-weight: 300; letter-spacing: -0.035em; text-wrap: balance; }
+h1, h2, h3, blockquote { font-family: var(--font-heading), var(--font-body), system-ui, sans-serif; font-weight: 300; letter-spacing: -0.03em; text-wrap: balance; }
 p { text-wrap: pretty; }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
 ::selection { background: var(--accent); color: var(--accent-ink); }
 
-.hero-glow { background: radial-gradient(60% 50% at 80% 0%, rgba(120, 169, 255, 0.12), transparent 70%); }
+.hero-glow { background: radial-gradient(60% 50% at 80% 0%, rgba(240, 184, 107, 0.12), transparent 70%); }
 
 @keyframes console-in { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
 .console-in { animation: console-in 1s cubic-bezier(.2,.7,.2,1) both; }

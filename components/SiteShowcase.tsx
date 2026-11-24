@@ -4,7 +4,7 @@ const dot = "h-2 w-2 rounded-full bg-line sm:h-2.5 sm:w-2.5";
 
 export function BrowserFrame({ src, alt, w, h, priority = false, className = "" }: { src: string; alt: string; w: number; h: number; priority?: boolean; className?: string }) {
   return (
-    <div className={`overflow-hidden rounded-xl border border-line bg-surface shadow-[0_60px_160px_-40px_rgba(120,169,255,.3)] sm:rounded-2xl ${className}`}>
+    <div className={`overflow-hidden rounded-xl border border-line bg-surface shadow-[0_60px_160px_-40px_rgba(240,184,107,.3)] sm:rounded-2xl ${className}`}>
       <div className="flex gap-1.5 border-b border-line px-3 py-2 sm:px-4 sm:py-3"><span className={dot} /><span className={dot} /><span className={dot} /></div>
       <Image src={src} alt={alt} width={w} height={h} priority={priority} className="w-full" sizes="(min-width:1024px) 1100px, 92vw" />
     </div>

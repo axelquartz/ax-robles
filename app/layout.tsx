@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { IBM_Plex_Sans, IBM_Plex_Mono } from "next/font/google";
+import { Sora, Manrope, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 
-const body = IBM_Plex_Sans({ subsets: ["latin"], weight: ["300", "400", "500"], variable: "--font-body" });
+const heading = Sora({ subsets: ["latin"], variable: "--font-heading" });
+const body = Manrope({ subsets: ["latin"], variable: "--font-body" });
 const data = IBM_Plex_Mono({ subsets: ["latin"], weight: ["400"], variable: "--font-data" });
 
 export const metadata: Metadata = {
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="es-MX" className={`${body.variable} ${data.variable}`}>
+    <html lang="es-MX" className={`${heading.variable} ${body.variable} ${data.variable}`}>
       <body>{children}</body>
     </html>
   );

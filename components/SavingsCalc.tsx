@@ -24,7 +24,7 @@ export default function SavingsCalc() {
   const msg = `Hola, hice el cálculo en tu sitio: con ${pedidos} pedidos al mes, ticket de ${mx(ticket)} y ${comision}% de comisión, pago unos ${mx(mes)} al mes a las apps. Quiero un sistema propio.`;
 
   return (
-    <div className="console-in w-full max-w-md rounded-3xl border border-line bg-surface/80 p-6 shadow-[0_40px_120px_-40px_rgba(120,169,255,.3)] backdrop-blur sm:p-8">
+    <div className="console-in w-full max-w-md rounded-3xl border border-line bg-surface/80 p-6 shadow-[0_40px_120px_-40px_rgba(240,184,107,.3)] backdrop-blur sm:p-8">
       <h2 className="text-2xl leading-tight sm:text-3xl">¿Cuánto le regalas a las apps cada mes?</h2>
       <div className="mt-7 space-y-5">
         <Slider id="c-pedidos" label="Pedidos al mes por apps" value={pedidos} min={50} max={1500} step={10} fmt={(n) => n.toLocaleString("es-MX")} onChange={setPedidos} />
@@ -33,7 +33,7 @@ export default function SavingsCalc() {
       </div>
       <div className="mt-8 border-t border-line pt-6">
         <div className="text-sm text-mute">Con tu propio sistema recuperas</div>
-        <div className="mt-1 text-5xl font-light tracking-tight text-accent tabular-nums sm:text-6xl" aria-live="polite">{mx(mes)}</div>
+        <div className="mt-1 text-5xl font-display font-light tracking-tight text-accent tabular-nums sm:text-6xl" aria-live="polite">{mx(mes)}</div>
         <div className="mt-1 text-mute">al mes, <span className="text-ink tabular-nums">{mx(mes * 12)}</span> al año.</div>
       </div>
       <a href={`https://wa.me/${site.whatsapp}?text=${encodeURIComponent(msg)}`} className="mt-7 flex w-full items-center justify-center rounded-full bg-ink px-6 py-3 text-[15px] font-normal text-bg transition hover:bg-white">Quiero recuperar ese dinero</a>

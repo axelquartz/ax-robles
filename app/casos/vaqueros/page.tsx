@@ -19,7 +19,6 @@ const capitulos: Chapter[] = [
   },
   {
     titulo: "Pedidos que llegan completos.",
-    dolor: "Sabores, dips y extras se perdían entre mensajes.",
     solucion: "Cada producto pide sus opciones antes de agregarse: sabor, dip, totopos. Si falta algo, no avanza.",
     puntos: ["Opciones obligatorias por producto", "Cantidades y extras sin errores de captura"],
     img: "/vaqueros/producto.jpg", label: "Ficha de producto con opciones", tipo: "movil",
@@ -33,7 +32,6 @@ const capitulos: Chapter[] = [
   },
   {
     titulo: "Una cocina que se entera al instante.",
-    dolor: "Los pedidos entraban por varios lados y la cocina se enteraba tarde.",
     solucion: "Un tablero donde cada pedido aparece al momento, en columnas por estatus, y avanza con un toque.",
     puntos: ["Aviso sonoro y notificaciones push", "Notas del cliente destacadas", "Tiempo de entrega promedio de 15 minutos"],
     img: "/vaqueros/cocina-2.jpg", label: "Panel de cocina", tipo: "escritorio", nota: "Pantalla con pedidos de ejemplo.",
@@ -54,7 +52,7 @@ const capitulos: Chapter[] = [
   },
 ];
 
-const corto = ["Sin ventas en línea", "Opciones perdidas", "Comisiones excesivas", "Cocina sin aviso", "Repartidores externos", "Devoluciones a mano"];
+const corto = ["Sin ventas en línea", "Comisiones excesivas", "Repartidores externos", "Devoluciones a mano"];
 
 export default function Caso() {
   return (
@@ -91,7 +89,7 @@ export default function Caso() {
             <h2 className="max-w-3xl text-4xl leading-[1.04] sm:text-6xl">Más ventas, más control y cero comisiones por pedido.</h2>
             <div className="mt-14 grid gap-px overflow-hidden rounded-3xl border border-line bg-line lg:grid-cols-3">
               <div className="flex flex-col justify-between gap-10 bg-bg p-8 sm:p-10">
-                <div className="text-8xl font-light leading-none tracking-tighter text-accent sm:text-9xl">0%</div>
+                <div className="font-display text-8xl font-light leading-none tracking-tighter text-accent sm:text-9xl">0%</div>
                 <div>
                   <h3 className="text-2xl sm:text-3xl">Sin comisión por pedido a las apps de reparto.</h3>
                   <p className="mt-4 text-mute">Cada pedido llega directo a tu cocina y el cliente es tuyo. Solo pagas la tarifa de la pasarela de pago, no un porcentaje a una plataforma.</p>
@@ -172,7 +170,7 @@ export default function Caso() {
         <section className="border-t border-line py-16 sm:py-20">
           <div className="mx-auto max-w-6xl px-5">
             <h2 className="max-w-2xl text-3xl sm:text-5xl">Lo que dolía, ya está resuelto.</h2>
-            <ul className="mt-10 grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-line bg-line lg:grid-cols-3">
+            <ul className="mt-10 grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-line bg-line lg:grid-cols-4">
               {corto.map((t) => (
                 <li key={t} className="flex flex-col justify-between gap-6 bg-bg p-5 sm:p-7">
                   <span className="text-lg leading-snug text-mute line-through decoration-accent/60 decoration-2 sm:text-2xl">{t}</span>

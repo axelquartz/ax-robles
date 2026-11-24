@@ -47,7 +47,7 @@ export default function Home() {
                 ["Pago digital", "Un menú atractivo que cobra con tarjeta en el momento."],
               ].map(([t, d]) => (
                 <div key={t} className="bg-bg p-7 sm:p-8">
-                  <div className="text-3xl font-light tracking-tight text-accent sm:text-4xl">{t}</div>
+                  <div className="text-3xl font-display font-light tracking-tight text-accent sm:text-4xl">{t}</div>
                   <p className="mt-3 text-mute">{d}</p>
                 </div>
               ))}
@@ -79,7 +79,7 @@ export default function Home() {
                 <ul className="space-y-1.5">{s.entrego.map((e) => <li key={e} className="flex gap-2"><span className="text-accent">+</span>{e}</li>)}</ul>
                 <div className="lg:text-right">
                   {"etiqueta" in s && <div className="mb-2 inline-block rounded-full border border-line px-3 py-1 text-xs text-accent">{s.etiqueta}</div>}
-                  <div className="text-2xl font-light tracking-tight">{s.precio}</div>
+                  <div className="text-2xl font-display font-light tracking-tight">{s.precio}</div>
                   {"mensualidad" in s && <div className="mt-1 text-lg text-ink/90">{s.mensualidad}</div>}
                   {"mensualidadIncluye" in s && <div className="mt-1 max-w-[18rem] text-sm text-mute lg:ml-auto">{s.mensualidadIncluye}</div>}
                   {"despues" in s && <div className="mt-3 max-w-[18rem] text-sm text-mute lg:ml-auto">{s.despues}</div>}
@@ -94,7 +94,7 @@ export default function Home() {
 
         <section id="yo" className={`border-y border-line bg-surface ${sec}`}>
           <div className={`${wrap} grid gap-12 lg:grid-cols-[1fr_1.3fr]`}>
-            <Image src="/axel-traje-4.jpg" alt="Axel Robles" width={1100} height={910} className="aspect-[1100/910] w-full max-w-md rounded-3xl object-cover" />
+            <Image src="/axel-camisa.jpg" alt="Axel Robles" width={1000} height={1250} className="aspect-[4/5] w-full max-w-sm rounded-3xl object-cover object-top" />
             <div>
               <h2 className="text-4xl sm:text-6xl">Trabajas conmigo, no con una agencia.</h2>
               <p className="mt-5 max-w-xl text-mute">Diseño y programo pensando en la operación: cada comisión, cada pedido perdido y cada devolución cuentan. Me hago cargo de todo, desde la marca hasta la cocina, y trabajas directo conmigo en cada paso. Si algo no ayuda a vender, no lo pongo.</p>

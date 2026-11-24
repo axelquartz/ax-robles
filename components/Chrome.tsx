@@ -36,7 +36,7 @@ export function Footer() {
 export function Metric({ etiqueta, valor }: { etiqueta: string; valor: string | null }) {
   return (
     <div>
-      <div className={valor ? "text-5xl font-light tracking-tight" : "text-5xl font-light tracking-tight text-mute/50"}>{valor ?? "—"}</div>
+      <div className={valor ? "text-5xl font-display font-light tracking-tight" : "text-5xl font-light tracking-tight text-mute/50"}>{valor ?? "—"}</div>
       <div className="mt-2 text-sm text-mute">{etiqueta}{valor ? "" : " (por definir)"}</div>
     </div>
   );
