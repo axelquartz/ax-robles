@@ -1,8 +1,137 @@
 [
-  {"nombre": "[Proyecto 1]", "giro": "Heladería"},
-  {"nombre": "[Proyecto 2]", "giro": "Heladería"},
-  {"nombre": "[Proyecto 3]", "giro": "Heladería"},
-  {"nombre": "[Proyecto 4]", "giro": "Heladería"},
-  {"nombre": "[Proyecto 5]", "giro": "Cafetería"},
-  {"nombre": "[Proyecto 6]", "giro": "Restaurante"}
+  {
+    "slug": "latinoriental",
+    "nombre": "Latinoriental",
+    "giro": "Restaurante de comida oriental",
+    "lugar": "Sushi a domicilio",
+    "anio": "2021",
+    "servicios": [
+      "Identidad visual"
+    ],
+    "cliente": "Restaurante mexicano de sushi y comida asiática que adapta la cocina oriental clásica al paladar latinoamericano. Su enfoque principal es la venta a domicilio de cajas especiales de sushi (maki), que se transforman en pequeñas mesas de cartón.",
+    "objetivo": "Combinar el acabado premium de sus alimentos con el confort y la experiencia impecable que el negocio quiere dar a sus clientes.",
+    "solucion": "La imagen gira en torno al contraste fuerte entre el negro y el naranja intenso. El diseño es la interpretación que en occidente damos a la comida oriental. El eslogan, «la mesa que nos une», conecta directamente con sus cajas especiales.",
+    "resultado": "Una identidad que lleva la experiencia premium del sushi hasta la puerta del cliente: reconocible, sobria y pensada para la entrega a domicilio.",
+    "entregables": [
+      "Logotipo y monograma",
+      "Bolsas y tote bag",
+      "Playera",
+      "Caja de sushi",
+      "Rotulación exterior"
+    ],
+    "n": 6
+  },
+  {
+    "slug": "ooom",
+    "nombre": "OOOM Ice Cream",
+    "giro": "Heladería",
+    "lugar": "San Andrés Cholula, Puebla",
+    "anio": "2022",
+    "servicios": [
+      "Identidad visual"
+    ],
+    "cliente": "Marca mexicana de helados, café, postres, chocolates y accesorios para mascotas. El negocio vive bajo un concepto espiritual y energético, en buena parte porque sus sabores son únicos y cambian cada quince días.",
+    "objetivo": "Comunicar, a través de formas sutiles, la experiencia emocional que el negocio brinda a sus clientes.",
+    "solucion": "Una paleta de colores pastel en la que todos los tonos interactúan entre sí con elegancia. Los degradados hacen que las formas se mezclen en una dirección zig-zag que recorre toda la identidad.",
+    "resultado": "Una marca única, fácil de identificar y muy cercana, que envuelve a sus clientes con un mensaje poderoso y una experiencia impecable.",
+    "entregables": [
+      "Logotipo y sello",
+      "Vasos de helado",
+      "Bolsas",
+      "Espectacular",
+      "Rotulación del local"
+    ],
+    "n": 4
+  },
+  {
+    "slug": "angelinas",
+    "nombre": "Angelina's",
+    "giro": "Gelatos italianos",
+    "lugar": "Tarija, Bolivia",
+    "anio": "2022",
+    "servicios": [
+      "Naming",
+      "Identidad visual"
+    ],
+    "cliente": "Marca de gelatos italianos totalmente naturales. Su fin es llevar la pureza del gelato a sus clientes con una experiencia emocional, combinada con un gelato impecable.",
+    "objetivo": "Llevar la simpleza del producto a un terreno vibrante y femenino, con tonos estridentes y formas dinámicas, y generar en las personas un mayor sentido de pertenencia hacia el negocio.",
+    "solucion": "Tres «angelinas» protagonizan la identidad y conectan con los clientes. Con tantos elementos interactuando, era vital que el logo y los textos no se perdieran: una tipografía script muy suave, combinada con un sello de Angelina, genera contrastes claros y fortalece el mensaje.",
+    "resultado": "Una marca vibrante, emocional y dinámica que combina la pureza del gelato con el movimiento. Sus tonos morados y rosas generan un placer visual que se complementa con el sabor de sus gelatos.",
+    "entregables": [
+      "Naming",
+      "Logotipo y sello",
+      "Ilustraciones de las angelinas",
+      "Vasos y bolsas",
+      "Papelería",
+      "Cartel y banderola"
+    ],
+    "n": 7
+  },
+  {
+    "slug": "yooglis",
+    "nombre": "Yooglis",
+    "giro": "Helados de yogurt, café y postres",
+    "lugar": "México",
+    "anio": "2022",
+    "servicios": [
+      "Identidad visual"
+    ],
+    "cliente": "Marca mexicana de helados a base de yogurt, café y postres. Busca ser un lugar agradable y convertirse en el punto de reunión perfecto para disfrutar un delicioso helado de yogurt.",
+    "objetivo": "Comunicar el dinamismo y la suavidad del yogurt.",
+    "solucion": "Formas curvas y tonos divertidos. Los gráficos de la marca recuerdan las manchas de las vacas y están presentes en todos sus elementos y aplicaciones.",
+    "resultado": "Una marca clara, fácil de identificar y muy flexible, cuyo mensaje vive en su gran servicio y en sus deliciosos helados.",
+    "entregables": [
+      "Logotipo",
+      "Sistema de gráficos",
+      "Barda y cartel",
+      "Camioneta de helados",
+      "Bandera"
+    ],
+    "n": 4
+  },
+  {
+    "slug": "lasmoras",
+    "nombre": "Las Moras",
+    "giro": "Casa tostadora de café",
+    "lugar": "San Luis Potosí",
+    "anio": "2022",
+    "servicios": [
+      "Branding"
+    ],
+    "cliente": "Casa tostadora dedicada al tueste y a la venta de café ya preparado, a través de una barra. Busca posicionarse como la opción que combina una calidad impecable con un servicio humano y eficiente.",
+    "objetivo": "Comunicar la pasión que vive el negocio, en especial las distintas texturas, consistencias y sabores que hay detrás de los granos de café. Es un tributo al buen café y a todo lo que lo envuelve.",
+    "solucion": "Tonos arena y formas elegantes que representan el amor que existe en el proceso de preparar esta bebida, con un patrón de trazos orgánicos que se repite en toda la marca.",
+    "resultado": "Una marca que combina un café del más alto nivel con una presentación bella.",
+    "entregables": [
+      "Logotipo y sello",
+      "Patrón gráfico",
+      "Vasos para café",
+      "Tote bag",
+      "Fachada y rótulo"
+    ],
+    "n": 6
+  },
+  {
+    "slug": "annemarie",
+    "nombre": "Anne Marie",
+    "giro": "Cafetería",
+    "lugar": "Guadalajara, México",
+    "anio": "2022",
+    "servicios": [
+      "Identidad visual"
+    ],
+    "cliente": "Cafetería pensada como un espacio para las personas que buscan conectar con ellas mismas y con su trabajo, ubicada en Guadalajara, México.",
+    "objetivo": "Diseñar una identidad visual que invite a las personas a ser auténticas, acompañada de una impecable experiencia de usuario y de un café delicioso.",
+    "solucion": "El concepto nace de entender el valor que tiene una cafetería: es el sitio donde las familias crean memorias, los amigos se reencuentran y nacen grandes ideas. Para que las personas actúen desde el corazón, el lugar debe sentirse como el punto de encuentro más cómodo posible, y para la mayoría ese lugar es el hogar. La identidad lo traduce en un patrón de mosaico en tonos cálidos que se repite en todas sus aplicaciones.",
+    "resultado": "Una cafetería que se siente como en casa: un punto de encuentro cómodo, cálido y auténtico, con una identidad coherente en cada pieza.",
+    "entregables": [
+      "Logotipo y patrón",
+      "Vasos para café",
+      "Bolsas y tote bag",
+      "Tarjetas de presentación",
+      "Empaque para alimentos",
+      "Rótulo exterior"
+    ],
+    "n": 7
+  }
 ]

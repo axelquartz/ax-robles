@@ -1,11 +1,20 @@
 {
   "nombre": "Vaquero's",
   "giro": "Restaurante de alitas",
-  "resumen": "Un restaurante que dejó de depender de apps de reparto: menú propio, cobro con tarjeta y cocina conectada.",
+  "resumen": "Es mi propio restaurante. Pasé de no vender en línea y pagar comisiones excesivas a repartidores externos a recibir 430 pedidos al mes con un sistema que construí yo.",
   "metricas": [
-    {"etiqueta": "Pedidos en línea", "valor": null},
-    {"etiqueta": "Tiempo de entrega", "valor": null},
-    {"etiqueta": "Ticket promedio", "valor": null}
+    {
+      "etiqueta": "Pedidos al mes",
+      "valor": "430"
+    },
+    {
+      "etiqueta": "Tiempo de entrega",
+      "valor": "15 min"
+    },
+    {
+      "etiqueta": "Ticket promedio",
+      "valor": "$250 MXN"
+    }
   ],
   "funciones": [
     "Menú digital pensado para el celular",
@@ -19,5 +28,16 @@
     "Notificaciones push",
     "Dashboard de ventas y exportación a CSV"
   ],
-  "stack": ["Next.js (App Router)", "TypeScript", "Tailwind CSS", "Supabase", "Netlify", "Mercado Pago"]
+  "stack": [
+    "Next.js (App Router)",
+    "TypeScript",
+    "Tailwind CSS",
+    "Supabase",
+    "Netlify",
+    "Mercado Pago"
+  ],
+  "cita": {
+    "texto": "Tener nuestra plataforma nos permitió vender mucho más y nos hizo irresistibles para los clientes.",
+    "autor": "Axel Robles, dueño de Vaquero Wings"
+  }
 }

@@ -1,0 +1,161 @@
+[
+  {
+    "slug": "cramor",
+    "nombre": "Cramor",
+    "giro": "Arreglos florales comestibles",
+    "anio": "2022",
+    "url": "https://cramoroficial.com",
+    "img": "/sitios/cramor/hero.jpg",
+    "titular": "Un sitio que se siente como la marca.",
+    "subtitulo": "Sitio bilingüe para una marca de arreglos florales hechos de chocolate, en la misma paleta y con la misma voz de su identidad.",
+    "resumen": "El sitio de una marca que vende regalos florales hechos de chocolate. Retoma la paleta coral y la tipografía de la identidad para que el sitio se sienta como una extensión natural de la marca.",
+    "incluye": [
+      "Sitio bilingüe, en español e inglés",
+      "Inicio, qué hacemos y galería de arreglos",
+      "Misma paleta y tipografía de la marca",
+      "Enlaces directos a WhatsApp, Facebook e Instagram",
+      "Adaptado al celular, con menú desplegable"
+    ],
+    "stack": [
+      "WordPress",
+      "Divi",
+      "Diseño bilingüe"
+    ],
+    "hero": {
+      "img": "/sitios/cramor/hero.jpg",
+      "w": 1800,
+      "h": 1125
+    },
+    "reto": [
+      "Cramor vende arreglos florales hechos a base de chocolate: regalos que, además de bellos, se comen. Necesitaba un sitio para presentar su propuesta a un público hispano y estadounidense.",
+      "El sitio tenía que explicar en segundos qué hace distinta a la marca y facilitar el contacto."
+    ],
+    "solucion": [
+      "Un sitio bilingüe, en español e inglés, con inicio, qué hacemos y galería. Retoma el coral y el salmón de la identidad y su tipografía con serif, para que se sienta como una extensión de la marca.",
+      "La portada es un bloque dividido: titular y botón a la izquierda y una fotografía de rosas a la derecha. Más abajo, valores, ocasiones y galería, con enlaces a WhatsApp, Facebook e Instagram."
+    ],
+    "resultado": [
+      "Un sitio que mantiene la misma voz, la misma paleta y el mismo tono en cada pantalla y en los dos idiomas.",
+      "Junto con la identidad y las redes, Cramor tiene una presencia coherente en todos sus puntos de contacto."
+    ],
+    "galeria": [
+      {
+        "img": "/sitios/cramor/g1-v2.jpg",
+        "titulo": "Valores que se leen de un vistazo",
+        "texto": "Tres mensajes breves —Hechos con amor, A tu medida y El detalle más delicioso— explican la propuesta de Cramor antes de que el visitante siga bajando.",
+        "w": 1800,
+        "h": 812
+      },
+      {
+        "img": "/sitios/cramor/g2.jpg",
+        "titulo": "Qué hacemos, por ocasión",
+        "texto": "El sitio organiza los arreglos por ocasión: amores, amistades y familia. Cada bloque combina una fotografía con un texto breve, y la página cierra con una invitación a enviar un mensaje.",
+        "w": 1800,
+        "h": 1125
+      },
+      {
+        "img": "/sitios/cramor/g3.jpg",
+        "titulo": "Galería de arreglos",
+        "texto": "Una cuadrícula limpia sobre fondo blanco deja que los arreglos sean los protagonistas: rosas, chocolates, peluches y cajas de regalo.",
+        "w": 1800,
+        "h": 1125
+      },
+      {
+        "img": "/sitios/cramor/g4.jpg",
+        "titulo": "Más detalles",
+        "texto": "Una franja de tres fotografías, con globos, arreglos y detalles de temporada, invita a seguir explorando.",
+        "w": 1800,
+        "h": 1125
+      }
+    ],
+    "movil": [
+      {
+        "img": "/sitios/cramor/m1.jpg"
+      },
+      {
+        "img": "/sitios/cramor/m2.jpg"
+      }
+    ],
+    "textoMovil": "El sitio se adapta al celular con un menú desplegable, el titular a gran tamaño y el selector «See in English» siempre a la vista."
+  },
+  {
+    "slug": "piso-fino-floors",
+    "nombre": "Piso Fino Floors",
+    "giro": "Pisos de lujo",
+    "anio": "2025",
+    "url": "https://pisofinofloors.com",
+    "img": "/sitios/pisofino/hero.jpg",
+    "titular": "Un sitio a la altura de un piso de lujo.",
+    "subtitulo": "Sitio de catálogo para una marca de pisos premium: portada oscura y cinematográfica, colecciones, galería y guía de instalación.",
+    "resumen": "Un sitio que refleja la calidad premium de sus pisos, combinando estilo y funcionalidad. Diseño exclusivo y moderno, con portada oscura y tipografía amplia para un cliente exigente.",
+    "incluye": [
+      "Diseño exclusivo y moderno",
+      "Adaptable a cualquier dispositivo",
+      "Carga rápida, optimizada para clientes exigentes",
+      "Una página por colección, con colores y especificaciones",
+      "Galería de ambientes y guías de instalación y garantía",
+      "Selector de idioma"
+    ],
+    "stack": [
+      "WordPress",
+      "Divi",
+      "Optimización de velocidad"
+    ],
+    "hero": {
+      "img": "/sitios/pisofino/hero.jpg",
+      "w": 1800,
+      "h": 1125
+    },
+    "reto": [
+      "Piso Fino Floors vende pisos de lujo tipo madera, de polímero de piedra (SPC), pensados para cualquier habitación: cocinas, baños y sótanos.",
+      "El reto: reflejar en pantalla la calidad premium del producto, combinando estilo y funcionalidad para clientes exigentes."
+    ],
+    "solucion": [
+      "Un diseño exclusivo y moderno: portada oscura sobre una fotografía de interior, titular en mayúsculas con tipografía amplia y bloques que alternan fondos claros y oscuros.",
+      "Una página por colección (Forest y Valentina), una galería de ambientes y una sección de instalación y garantía con guías descargables. 100% adaptable a cualquier dispositivo y optimizado para cargar rápido."
+    ],
+    "resultado": [
+      "Un sitio que transmite el mismo carácter premium que el producto, con el catálogo, la galería y la información técnica a pocos clics.",
+      "Fácil de recorrer en cualquier dispositivo."
+    ],
+    "galeria": [
+      {
+        "img": "/sitios/pisofino/g1.jpg",
+        "titulo": "Cada colección, con su color",
+        "texto": "Cada piso se presenta con una fotografía de ambiente y una muestra del color, junto a sus medidas y especificaciones técnicas.",
+        "w": 1800,
+        "h": 1125
+      },
+      {
+        "img": "/sitios/pisofino/g2.jpg",
+        "titulo": "Galería de ambientes",
+        "texto": "Una galería de interiores muestra cada piso ya instalado, con el nombre de cada color: Silver Lake, River, Stone, Clear Pine, Pure Oak.",
+        "w": 1800,
+        "h": 1125
+      },
+      {
+        "img": "/sitios/pisofino/g3.jpg",
+        "titulo": "Instalación y garantía",
+        "texto": "Guías descargables de instalación y mantenimiento, la garantía del piso SPC y una hoja de especificaciones, todo en un solo lugar.",
+        "w": 1800,
+        "h": 1125
+      },
+      {
+        "img": "/sitios/pisofino/g4.jpg",
+        "titulo": "Una portada por colección",
+        "texto": "Las colecciones Forest y Valentina abren con una introducción oscura, un texto de presentación y un botón para hacer el pedido.",
+        "w": 1800,
+        "h": 1125
+      }
+    ],
+    "movil": [
+      {
+        "img": "/sitios/pisofino/m1.jpg"
+      },
+      {
+        "img": "/sitios/pisofino/m2.jpg"
+      }
+    ],
+    "textoMovil": "El sitio se reorganiza para el celular con menú desplegable, titulares a gran tamaño y botones de ancho completo."
+  }
+]
