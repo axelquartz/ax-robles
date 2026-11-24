@@ -24,10 +24,10 @@ export function Header() {
 
 export function Footer() {
   return (
-    <footer className="border-t border-line px-5 py-10 text-sm text-mute">
-      <div className="mx-auto flex max-w-6xl flex-wrap justify-between gap-3">
+    <footer className="border-t border-line py-10 text-sm text-mute">
+      <div className="mx-auto flex max-w-6xl px-5 flex-wrap justify-between gap-3">
         <span className="flex items-center gap-3"><Image src="/logo-ax.png" alt="" width={600} height={248} className="h-4 w-auto opacity-70" />© 2026 {site.marca}, {site.ciudad}</span>
-        <a className="transition hover:text-ink" href={wa("Hola, vi tu sitio.")}>WhatsApp</a>
+        <span className="flex flex-wrap gap-x-6 gap-y-2"><a className="transition hover:text-ink" href={`mailto:${site.email}`}>{site.email}</a><a className="transition hover:text-ink" href={wa("Hola, vi tu sitio.")}>WhatsApp</a></span>
       </div>
     </footer>
   );

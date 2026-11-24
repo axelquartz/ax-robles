@@ -154,6 +154,7 @@ export default function Home() {
               <h2 className="text-4xl sm:text-6xl">Cuéntame de tu negocio.</h2>
               <p className="mt-5 max-w-md text-mute">Respondo el mismo día hábil. La primera llamada no cuesta y sales con una idea clara, aunque no trabajemos juntos.</p>
               <a href={wa("Hola, quiero cotizar.")} className="mt-8 inline-block text-accent underline underline-offset-4">O escríbeme directo por WhatsApp</a>
+              <p className="mt-4 text-mute">Correo: <a className="text-ink underline underline-offset-4" href={`mailto:${site.email}`}>{site.email}</a></p>
             </div>
             <ContactForm />
           </div>
