@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { useRef, useState } from "react";
 
-export type Brand = { slug: string; nombre: string; giro: string; lugar: string; anio: string; servicios: string[]; cliente: string; objetivo: string; solucion: string; resultado: string; entregables: string[]; n: number };
+export type Brand = { slug: string; nombre: string; giro: string; lugar: string; anio: string; servicios: string[]; cliente: string; objetivo: string; solucion: string; resultado: string; entregables: string[]; n: number; portada?: number };
 
 export default function BrandGallery({ brands }: { brands: Brand[] }) {
   const ref = useRef<HTMLDialogElement>(null);
@@ -23,7 +23,7 @@ export default function BrandGallery({ brands }: { brands: Brand[] }) {
           <li key={b.slug}>
             <button onClick={() => open(b)} className="group block w-full text-left" aria-label={`Ver el caso de ${b.nombre}`}>
               <div className="overflow-hidden rounded-2xl border border-line bg-surface">
-                <Image src={`/marcas/${b.slug}/1.jpg`} alt={`${b.nombre}, ${b.giro}`} width={1080} height={1080} sizes="(min-width:1024px) 380px, 45vw" className="aspect-[4/5] w-full object-cover transition duration-700 group-hover:scale-[1.04] motion-reduce:transition-none" />
+                <Image src={`/marcas/${b.slug}/${b.portada ?? 1}.jpg`} alt={`${b.nombre}, ${b.giro}`} width={1080} height={1080} sizes="(min-width:1024px) 380px, 45vw" className="aspect-[4/5] w-full object-cover transition duration-700 group-hover:scale-[1.04] motion-reduce:transition-none" />
               </div>
               <div className="mt-4 text-xl font-normal tracking-tight sm:text-2xl">{b.nombre}</div>
               <div className="mt-1 text-sm text-mute">{b.giro}</div>

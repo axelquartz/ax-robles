@@ -19,7 +19,8 @@
       "Caja de sushi",
       "Rotulación exterior"
     ],
-    "n": 6
+    "n": 6,
+    "portada": 2
   },
   {
     "slug": "ooom",
@@ -65,7 +66,8 @@
       "Papelería",
       "Cartel y banderola"
     ],
-    "n": 7
+    "n": 7,
+    "portada": 3
   },
   {
     "slug": "yooglis",
@@ -87,7 +89,8 @@
       "Camioneta de helados",
       "Bandera"
     ],
-    "n": 4
+    "n": 4,
+    "portada": 2
   },
   {
     "slug": "lasmoras",
@@ -109,7 +112,8 @@
       "Tote bag",
       "Fachada y rótulo"
     ],
-    "n": 6
+    "n": 6,
+    "portada": 3
   },
   {
     "slug": "annemarie",
@@ -132,6 +136,7 @@
       "Empaque para alimentos",
       "Rótulo exterior"
     ],
-    "n": 7
+    "n": 7,
+    "portada": 3
   }
 ]
