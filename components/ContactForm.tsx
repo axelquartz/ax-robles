@@ -3,7 +3,7 @@ import { useState } from "react";
 import site from "@/data/site.json";
 
 const giros = ["Restaurante", "Heladería", "Cafetería", "Otro negocio de comida"];
-const necesidades = ["Marca", "Sitio y menú digital", "Pedidos en línea con pago", "No sé, quiero que me orienten"];
+const necesidades = ["Marca", "Sitio y menú digital", "Sistema de pedidos", "No sé, quiero que me orienten"];
 
 export default function ContactForm() {
   const [f, setF] = useState({ nombre: "", giro: giros[0], necesito: necesidades[3], detalle: "" });

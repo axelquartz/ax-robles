@@ -1,84 +1,5 @@
 [
   {
-    "slug": "cramor",
-    "nombre": "Cramor",
-    "giro": "Arreglos florales comestibles",
-    "anio": "2022",
-    "url": "https://cramoroficial.com",
-    "img": "/sitios/cramor/hero.jpg",
-    "titular": "Un sitio que se siente como la marca.",
-    "subtitulo": "Sitio bilingüe para una marca de arreglos florales hechos de chocolate, en la misma paleta y con la misma voz de su identidad.",
-    "resumen": "El sitio de una marca que vende regalos florales hechos de chocolate. Retoma la paleta coral y la tipografía de la identidad para que el sitio se sienta como una extensión natural de la marca.",
-    "incluye": [
-      "Sitio bilingüe, en español e inglés",
-      "Inicio, qué hacemos y galería de arreglos",
-      "Misma paleta y tipografía de la marca",
-      "Enlaces directos a WhatsApp, Facebook e Instagram",
-      "Adaptado al celular, con menú desplegable"
-    ],
-    "stack": [
-      "WordPress",
-      "Divi",
-      "Diseño bilingüe"
-    ],
-    "hero": {
-      "img": "/sitios/cramor/hero.jpg",
-      "w": 1800,
-      "h": 1125
-    },
-    "reto": [
-      "Cramor vende arreglos florales hechos a base de chocolate: regalos que, además de bellos, se comen. Necesitaba un sitio para presentar su propuesta a un público hispano y estadounidense.",
-      "El sitio tenía que explicar en segundos qué hace distinta a la marca y facilitar el contacto."
-    ],
-    "solucion": [
-      "Un sitio bilingüe, en español e inglés, con inicio, qué hacemos y galería. Retoma el coral y el salmón de la identidad y su tipografía con serif, para que se sienta como una extensión de la marca.",
-      "La portada es un bloque dividido: titular y botón a la izquierda y una fotografía de rosas a la derecha. Más abajo, valores, ocasiones y galería, con enlaces a WhatsApp, Facebook e Instagram."
-    ],
-    "resultado": [
-      "Un sitio que mantiene la misma voz, la misma paleta y el mismo tono en cada pantalla y en los dos idiomas.",
-      "Junto con la identidad y las redes, Cramor tiene una presencia coherente en todos sus puntos de contacto."
-    ],
-    "galeria": [
-      {
-        "img": "/sitios/cramor/g1-v2.jpg",
-        "titulo": "Valores que se leen de un vistazo",
-        "texto": "Tres mensajes breves —Hechos con amor, A tu medida y El detalle más delicioso— explican la propuesta de Cramor antes de que el visitante siga bajando.",
-        "w": 1800,
-        "h": 812
-      },
-      {
-        "img": "/sitios/cramor/g2.jpg",
-        "titulo": "Qué hacemos, por ocasión",
-        "texto": "El sitio organiza los arreglos por ocasión: amores, amistades y familia. Cada bloque combina una fotografía con un texto breve, y la página cierra con una invitación a enviar un mensaje.",
-        "w": 1800,
-        "h": 1125
-      },
-      {
-        "img": "/sitios/cramor/g3.jpg",
-        "titulo": "Galería de arreglos",
-        "texto": "Una cuadrícula limpia sobre fondo blanco deja que los arreglos sean los protagonistas: rosas, chocolates, peluches y cajas de regalo.",
-        "w": 1800,
-        "h": 1125
-      },
-      {
-        "img": "/sitios/cramor/g4.jpg",
-        "titulo": "Más detalles",
-        "texto": "Una franja de tres fotografías, con globos, arreglos y detalles de temporada, invita a seguir explorando.",
-        "w": 1800,
-        "h": 1125
-      }
-    ],
-    "movil": [
-      {
-        "img": "/sitios/cramor/m1.jpg"
-      },
-      {
-        "img": "/sitios/cramor/m2.jpg"
-      }
-    ],
-    "textoMovil": "El sitio se adapta al celular con un menú desplegable, el titular a gran tamaño y el selector «See in English» siempre a la vista."
-  },
-  {
     "slug": "piso-fino-floors",
     "nombre": "Piso Fino Floors",
     "giro": "Pisos de lujo",
@@ -157,5 +78,84 @@
       }
     ],
     "textoMovil": "El sitio se reorganiza para el celular con menú desplegable, titulares a gran tamaño y botones de ancho completo."
+  },
+  {
+    "slug": "cramor",
+    "nombre": "Cramor",
+    "giro": "Arreglos florales comestibles",
+    "anio": "2022",
+    "url": "https://cramoroficial.com",
+    "img": "/sitios/cramor/hero.jpg",
+    "titular": "Un sitio que se siente como la marca.",
+    "subtitulo": "Sitio bilingüe para una marca de arreglos florales hechos de chocolate, en la misma paleta y con la misma voz de su identidad.",
+    "resumen": "El sitio de una marca que vende regalos florales hechos de chocolate. Retoma la paleta coral y la tipografía de la identidad para que el sitio se sienta como una extensión natural de la marca.",
+    "incluye": [
+      "Sitio bilingüe, en español e inglés",
+      "Inicio, qué hacemos y galería de arreglos",
+      "Misma paleta y tipografía de la marca",
+      "Enlaces directos a WhatsApp, Facebook e Instagram",
+      "Adaptado al celular, con menú desplegable"
+    ],
+    "stack": [
+      "WordPress",
+      "Divi",
+      "Diseño bilingüe"
+    ],
+    "hero": {
+      "img": "/sitios/cramor/hero.jpg",
+      "w": 1800,
+      "h": 1125
+    },
+    "reto": [
+      "Cramor vende arreglos florales hechos a base de chocolate: regalos que, además de bellos, se comen. Necesitaba un sitio para presentar su propuesta a un público hispano y estadounidense.",
+      "El sitio tenía que explicar en segundos qué hace distinta a la marca y facilitar el contacto."
+    ],
+    "solucion": [
+      "Un sitio bilingüe, en español e inglés, con inicio, qué hacemos y galería. Retoma el coral y el salmón de la identidad y su tipografía con serif, para que se sienta como una extensión de la marca.",
+      "La portada es un bloque dividido: titular y botón a la izquierda y una fotografía de rosas a la derecha. Más abajo, valores, ocasiones y galería, con enlaces a WhatsApp, Facebook e Instagram."
+    ],
+    "resultado": [
+      "Un sitio que mantiene la misma voz, la misma paleta y el mismo tono en cada pantalla y en los dos idiomas.",
+      "Junto con la identidad y las redes, Cramor tiene una presencia coherente en todos sus puntos de contacto."
+    ],
+    "galeria": [
+      {
+        "img": "/sitios/cramor/g1-v2.jpg",
+        "titulo": "Valores que se leen de un vistazo",
+        "texto": "Tres mensajes breves —Hechos con amor, A tu medida y El detalle más delicioso— explican la propuesta de Cramor antes de que el visitante siga bajando.",
+        "w": 1800,
+        "h": 812
+      },
+      {
+        "img": "/sitios/cramor/g2.jpg",
+        "titulo": "Qué hacemos, por ocasión",
+        "texto": "El sitio organiza los arreglos por ocasión: amores, amistades y familia. Cada bloque combina una fotografía con un texto breve, y la página cierra con una invitación a enviar un mensaje.",
+        "w": 1800,
+        "h": 1125
+      },
+      {
+        "img": "/sitios/cramor/g3.jpg",
+        "titulo": "Galería de arreglos",
+        "texto": "Una cuadrícula limpia sobre fondo blanco deja que los arreglos sean los protagonistas: rosas, chocolates, peluches y cajas de regalo.",
+        "w": 1800,
+        "h": 1125
+      },
+      {
+        "img": "/sitios/cramor/g4.jpg",
+        "titulo": "Más detalles",
+        "texto": "Una franja de tres fotografías, con globos, arreglos y detalles de temporada, invita a seguir explorando.",
+        "w": 1800,
+        "h": 1125
+      }
+    ],
+    "movil": [
+      {
+        "img": "/sitios/cramor/m1.jpg"
+      },
+      {
+        "img": "/sitios/cramor/m2.jpg"
+      }
+    ],
+    "textoMovil": "El sitio se adapta al celular con un menú desplegable, el titular a gran tamaño y el selector «See in English» siempre a la vista."
   }
 ]

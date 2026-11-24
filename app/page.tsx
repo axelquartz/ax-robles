@@ -94,7 +94,7 @@ export default function Home() {
 
         <section id="yo" className={`border-y border-line bg-surface ${sec}`}>
           <div className={`${wrap} grid gap-12 lg:grid-cols-[1fr_1.3fr]`}>
-            <Image src="/axel-traje-2.jpg" alt="Axel Robles" width={900} height={963} className="aspect-[900/963] w-full max-w-sm rounded-3xl object-cover" />
+            <Image src="/axel-traje-4.jpg" alt="Axel Robles" width={1100} height={910} className="aspect-[1100/910] w-full max-w-md rounded-3xl object-cover" />
             <div>
               <h2 className="text-4xl sm:text-6xl">Trabajas conmigo, no con una agencia.</h2>
               <p className="mt-5 max-w-xl text-mute">Diseño y programo pensando en la operación: cada comisión, cada pedido perdido y cada devolución cuentan. Me hago cargo de todo, desde la marca hasta la cocina, y trabajas directo conmigo en cada paso. Si algo no ayuda a vender, no lo pongo.</p>
@@ -142,7 +142,7 @@ export default function Home() {
 
         <section id="marca" className="border-y border-line bg-surface py-24 sm:py-36">
           <div className={wrap}>
-          <h2 className="max-w-3xl text-4xl sm:text-6xl">También hago marca.</h2>
+          <h2 className="max-w-3xl text-4xl sm:text-6xl">Marcas que se antojan.</h2>
           <p className="mt-4 max-w-xl text-mute">Identidades para heladerías, cafeterías y restaurantes. Toca cada proyecto para verlo completo.</p>
           <BrandGallery brands={brand} />
         </div>
