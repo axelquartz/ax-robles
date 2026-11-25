@@ -40,6 +40,20 @@ export default function Home() {
             <p className="mb-5 text-lg text-mute">Caso de estudio: Vaquero Wings</p>
             <h2 className="max-w-4xl text-4xl leading-[1.04] sm:text-6xl lg:text-7xl">Vaquero Wings dejó de pagar comisiones a las apps.</h2>
             <p className="mt-6 max-w-2xl text-lg text-mute">{v.resumen}</p>
+            <div className="mt-12">
+              <video
+                controls
+                preload="none"
+                playsInline
+                poster="/videos/caso-90s.jpg"
+                aria-label="Video de 90 segundos: cómo Vaquero Wings vende directo con su propia plataforma de pedidos"
+                className="aspect-video w-full rounded-3xl border border-line bg-black object-cover shadow-[0_40px_120px_-30px_rgba(240,184,107,.3)]"
+              >
+                <source src="/videos/caso-90s.mp4" type="video/mp4" />
+                Tu navegador no reproduce video. <a href="/videos/caso-90s.mp4" className="text-accent underline">Descárgalo aquí</a>.
+              </video>
+              <a href="#contacto" className={`${btnPrimary} mt-6`}>Cuéntame de tu negocio</a>
+            </div>
             <div className="mt-12 grid gap-px overflow-hidden rounded-3xl border border-line bg-line sm:grid-cols-3">
               {[
                 ["0%", "Comisión por pedido a plataformas de reparto."],
