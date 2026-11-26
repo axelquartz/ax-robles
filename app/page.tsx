@@ -52,6 +52,9 @@ export default function Home() {
                 <source src="/videos/caso-90s.mp4" type="video/mp4" />
                 Tu navegador no reproduce video. <a href="/videos/caso-90s.mp4" className="text-accent underline">Descárgalo aquí</a>.
               </video>
+              <p className="mt-3 text-xs text-mute">
+                Música: “Raving Energy” de Kevin MacLeod (<a href="https://incompetech.com" target="_blank" rel="noreferrer" className="underline">incompetech.com</a>), licencia <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noreferrer" className="underline">CC BY 4.0</a>.
+              </p>
               <a href="#contacto" className={`${btnPrimary} mt-6`}>Cuéntame de tu negocio</a>
             </div>
             <div className="mt-12 grid gap-px overflow-hidden rounded-3xl border border-line bg-line sm:grid-cols-3">
